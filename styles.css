@@ -6,7 +6,7 @@
 
 @media (min-width: 400px) {
 	.logo {
-		max-width: 250px !important;
+		max-width: 200px !important;
 	}
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 .btn:hover {
-	background-color: #ffffff;
-	color: rgb(0, 0, 0);
+	background-color: #ff0000;
+	color: rgb(255, 255, 255);
 }
 
 .text-description {
