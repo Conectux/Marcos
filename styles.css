@@ -14,7 +14,16 @@
 
 .footer-title {
 	color: white !important;
-	font-size: 13px;
+	font-size: 11px;
+}
+
+.footer-link {
+	color: white;
+}
+
+.footer-link:hover {
+	color: red;
+	text-decoration: none;
 }
 
 /* Estilos para el video de fondo */
