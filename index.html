@@ -22,8 +22,26 @@
 	</head>
 	<body>
 		<!-- Video de fondo -->
-		<video autoplay loop muted playsinline id="video-background">
+		<video
+			autoplay
+			loop
+			muted
+			playsinline
+			id="video-background"
+			class="video-horizontal"
+		>
 			<source src="video.mp4" type="video/mp4" />
+		</video>
+
+		<video
+			autoplay
+			loop
+			muted
+			playsinline
+			id="video-background"
+			class="video-vertical"
+		>
+			<source src="video-vertical.mp4" type="video/mp4" />
 		</video>
 
 		<!-- Contenido -->
@@ -61,9 +79,11 @@
 						><i class="fa-solid fa-comment-sms"></i> SMS
 					</a>
 				</div>
-				<p class="footer-title">
-					Creado por: ⒸConectux <span id="year"></span> <br />
-					<a target="_blank" href="https://conectux.com/">www.conectux.com</a>
+				<p class="footer-title mt-2">
+					Created by: ⒸConectux <span id="year"></span> <br />
+					<a target="_blank" class="footer-link" href="https://conectux.com/"
+						>www.conectux.com</a
+					>
 				</p>
 			</div>
 		</div>

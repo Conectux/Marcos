@@ -14,7 +14,16 @@
 
 .footer-title {
 	color: white !important;
-	font-size: 13px;
+	font-size: 11px;
+}
+
+.footer-link {
+	color: white;
+}
+
+.footer-link:hover {
+	color: red;
+	text-decoration: none;
 }
 
 /* Estilos para el video de fondo */
@@ -50,4 +59,25 @@
 
 .card {
 	background: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo general para los videos */
+video {
+	display: none; /* Ocultar todos los videos por defecto */
+}
+
+/* Mostrar el primer video cuando el ancho de la pantalla sea > 800px */
+@media (min-width: 801px) {
+	.video-horizontal {
+		display: block;
+	}
+}
+
+/* Mostrar el segundo video cuando el ancho de la pantalla sea <= 800px */
+@media (max-width: 800px) {
+	.video-vertical {
+		display: block;
+		max-width: 100%;
+		object-fit: cover;
+	}
 }
