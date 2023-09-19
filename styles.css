@@ -81,3 +81,7 @@ video {
 		object-fit: cover;
 	}
 }
+
+.img-max-width {
+	max-width: 80px; /* Puedes ajustar el valor según tus necesidades */
+}
